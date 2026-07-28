@@ -8,4 +8,6 @@ jobs:
         run: echo "Hello from DAMON XU"
 
       - name: Print goodbye
-        run: echo "Bye!! damonx! hahahah"
+        run: | 
+          echo "Sadly, this is the end of the workflow"
+          echo "Bye!! damonx! Test only"
